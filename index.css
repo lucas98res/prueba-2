@@ -1,0 +1,268 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+header {
+    text-align: center;
+    text-shadow: 3px;
+    font-weight: 70vw;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: rgb(117, 133, 117);
+    background: linear-gradient(90deg, rgba(117, 133, 117, 1) 4%, rgba(41, 35, 35, 1) 12%, rgba(6, 41, 6, 1) 88%, rgba(21, 147, 23, 1) 96%);
+}
+
+.selectores {
+    font-size: 1.5vw;
+    padding: 2vw;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(144, 120, 120, 0.4);
+    border-radius: 2vw;
+}
+
+#titulo {
+    padding: 1vw;
+    font-size: 2vw;
+    text-align: center;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 2vw;
+}
+
+#comentario_inicial {
+    padding: 3vw;
+    text-align: center;
+}
+
+#comentario_fund {
+    padding-inline: 1vw;
+    text-align: center;
+}
+
+#productos {
+    padding: 1vw;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 2vw;
+}
+
+#servicios {
+    padding: 1vw;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 2vw;
+}
+
+#tabla_1 {
+    padding: 1vw;
+    width: 70%;
+    height: 800px;
+    max-width: 1000px;
+    max-height: 800px;
+    min-width: 1000px;
+    display: table;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagen_modulo {
+    max-height: 150px;
+    max-width: 150px;
+    margin: 2vw;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#tabla_2 {
+    padding: 2vw;
+    width: 70%;
+    height: 400px;
+    text-align: left;
+    display: table;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2vw;
+}
+
+body {
+    text-align: justify;
+}
+
+
+#comentarios {
+    padding: 20px;
+}
+
+
+.direcciones {
+    padding: 1vw;
+}
+
+#contacto {
+    padding: 1vw;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 2vw;
+}
+
+#lista_datos {
+    padding: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+#mapa {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0vw;
+    place-items: center;
+}
+
+#correo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer {
+    padding: 1vw;
+}
+
+#anuncio_docente {
+    padding: 1vw;
+    text-align: center;
+    font-size: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 2vw;
+
+}
+
+.datos {
+    display: flex;
+    padding: 2vw;
+    justify-content: center;
+}
+
+.aportes {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor_formulario {
+    padding: 1vw;
+
+}
+
+.formulario {
+    list-style-type: none;
+    padding: 1vw;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    color: black;
+}
+
+.boton_enviar {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: medium;
+    padding: 6px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+aside {
+    padding: 1vw;
+}
+
+#referencias {
+    text-align: center;
+}
+
+.comentarios_clientes {
+    border-style: dashed;
+    border-color: cadetblue;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 2vw;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#comentario_1 {
+    padding-bottom: 10px;
+}
+
+#comentario_2 {
+    padding-bottom: 10px;
+}
+
+#comentario_3 {
+    padding-bottom: 10px;
+}
+
+#modulos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.description {
+    display: none;
+}
+
+#modtitulo {
+    padding: 1vw;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 2vw;
+}
+
+.contenedorseparado {
+    padding: 1vw;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2vw;
+    font-size: 25px;
+}
+
+.button {
+    background-color: rgb(26, 12, 12);
+    color: rgb(249, 246, 246);
+    border-radius: 2vw;
+    font-size: medium;
+}
